@@ -92,6 +92,7 @@ Rally games management system for the **Masa Orientasi Bersama (MOB) FT 2026** a
 - `npm run db:generate`: Generates migration files from schema changes.
 - `npm run db:migrate`: Runs pending migrations.
 - `npm run db:studio`: Opens Drizzle Studio for database inspection.
+- `npm run check`:Execute typecheck, lint, and format in one command.
 
 ---
 

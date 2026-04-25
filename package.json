@@ -14,7 +14,8 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push",
-    "db:studio": "drizzle-kit studio"
+    "db:studio": "drizzle-kit studio",
+    "check": "npm run lint && npm run typecheck && npm run format:check"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
